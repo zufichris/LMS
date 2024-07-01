@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": "lib",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["express"]
+  },
+  "include": ["lib"]
+}
